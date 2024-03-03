@@ -1,0 +1,181 @@
+@mixin text ($f-size,$f-family,$l-height){
+	font-size: $f-size;
+	font-family: $f-family;
+	line-height: $l-height;
+}
+.main1{
+	width: 100%;
+	background-color: #242B33;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 70px;
+	padding-top: 190px;
+	flex-wrap: wrap;
+	.main1-box{
+		max-width: 200px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 60px;
+		img{
+			max-width: 80px;
+			max-height: 80px;
+		}
+		p{
+			@include text(20px,"roboto",27px);
+			color: #fff;
+			text-align: center;
+		}
+	}
+}
+.main1-flats{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 120px;
+	background-color: #242B33;
+	gap: 100px;
+	h2{
+		@include text(36px,"playfair",48px);
+		color: #D4C17F;
+	}
+	.box-flat-desc{
+		width: 525px;
+		height: 320px;
+		background-position: center;
+		background-size: cover;
+		display: flex;
+		padding: 50px;
+		align-items: end;
+		p{
+			@include text(24px,"raleway",28px);
+			color: #fff;
+		}
+	}
+	
+}
+.box-flats{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+.main2{
+	background-image: url(../img/bg2.png);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 190px;
+	padding-top: 180px;
+	video{
+		max-width: 720px;
+		max-height: 650px;
+	}
+	.main2-box{
+		display: flex;
+		gap: 35px;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.main2-header{
+		max-width: 510px;
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+		h2{
+			@include text(36px,"playfair", 48px);
+			color: #D4C17F;
+		}
+		p{
+			@include text(16px,"playfair", 24px);
+			color: #fff;
+		}
+	}
+	.main2-form{
+		max-width: 540px;
+		form{
+			display: flex;
+			flex-wrap: wrap;
+			gap: 30px;
+			input{
+				width: 255px;
+				height: 50px;
+				background-color: #fff;
+				opacity: 20%;
+				border: none;
+				outline: none;
+				text-align: center;
+				@include text(14px, "raleway", 27px)
+			}
+			.form-text{
+				width: 255px;
+				height: 50px;
+				text-align: center;
+				p{
+					@include text(13px,"raleway",16px);
+					color: #E7E7E7;
+				}
+			}
+		}
+	}
+}
+.main3{
+	width: 100%;
+	padding-top: 180px;
+	padding-bottom: 180px;
+	display: flex;
+	flex-direction: column;
+	gap: 180px;
+	background-color: #242B33;
+	.main3-header{
+		display: flex;
+		flex-direction: column;
+		gap: 100px;
+		h2{
+			@include text(36px,"playfair",48px);
+			color: #D4C17F;
+		}
+		.main3-map{
+			max-width: 1110px;
+			height: 360px;
+			background-color: #626262;
+		}
+	}
+}
+.main3-footer{
+	display: flex;
+	flex-direction: column;
+	gap: 61px;
+	h2{
+		@include text(36px,"playfair",48px);
+		color: #D4C17F;
+	}
+	form{
+		display: flex;
+		flex-wrap: wrap;
+		gap: 30px;
+		input{
+			width: 245px;
+			height: 50px;
+			background-color: #fff;
+			opacity: 20%;
+			border: none;
+			outline: none;
+			text-align: center;
+			@include text(14px, "raleway", 27px)
+		}
+		.form-text{
+			width: 245px;
+			height: 50px;
+			text-align: center;
+			p{
+				@include text(13px,"raleway",16px);
+				color: #E7E7E7;
+			}
+		}
+	}
+}

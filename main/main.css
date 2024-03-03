@@ -1,0 +1,202 @@
+.main1 {
+  width: 100%;
+  background-color: #242B33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  padding-top: 190px;
+  flex-wrap: wrap;
+}
+.main1 .main1-box {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+.main1 .main1-box img {
+  max-width: 80px;
+  max-height: 80px;
+}
+.main1 .main1-box p {
+  font-size: 20px;
+  font-family: "roboto";
+  line-height: 27px;
+  color: #fff;
+  text-align: center;
+}
+
+.main1-flats {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  background-color: #242B33;
+  gap: 100px;
+}
+.main1-flats h2 {
+  font-size: 36px;
+  font-family: "playfair";
+  line-height: 48px;
+  color: #D4C17F;
+}
+.main1-flats .box-flat-desc {
+  width: 525px;
+  height: 320px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  padding: 50px;
+  align-items: end;
+}
+.main1-flats .box-flat-desc p {
+  font-size: 24px;
+  font-family: "raleway";
+  line-height: 28px;
+  color: #fff;
+}
+
+.box-flats {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.main2 {
+  background-image: url(../img/bg2.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 190px;
+  padding-top: 180px;
+}
+.main2 video {
+  max-width: 720px;
+  max-height: 650px;
+}
+.main2 .main2-box {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main2 .main2-header {
+  max-width: 510px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.main2 .main2-header h2 {
+  font-size: 36px;
+  font-family: "playfair";
+  line-height: 48px;
+  color: #D4C17F;
+}
+.main2 .main2-header p {
+  font-size: 16px;
+  font-family: "playfair";
+  line-height: 24px;
+  color: #fff;
+}
+.main2 .main2-form {
+  max-width: 540px;
+}
+.main2 .main2-form form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.main2 .main2-form form input {
+  width: 255px;
+  height: 50px;
+  background-color: #fff;
+  opacity: 20%;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 14px;
+  font-family: "raleway";
+  line-height: 27px;
+}
+.main2 .main2-form form .form-text {
+  width: 255px;
+  height: 50px;
+  text-align: center;
+}
+.main2 .main2-form form .form-text p {
+  font-size: 13px;
+  font-family: "raleway";
+  line-height: 16px;
+  color: #E7E7E7;
+}
+
+.main3 {
+  width: 100%;
+  padding-top: 180px;
+  padding-bottom: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 180px;
+  background-color: #242B33;
+}
+.main3 .main3-header {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.main3 .main3-header h2 {
+  font-size: 36px;
+  font-family: "playfair";
+  line-height: 48px;
+  color: #D4C17F;
+}
+.main3 .main3-header .main3-map {
+  max-width: 1110px;
+  height: 360px;
+  background-color: #626262;
+}
+
+.main3-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 61px;
+}
+.main3-footer h2 {
+  font-size: 36px;
+  font-family: "playfair";
+  line-height: 48px;
+  color: #D4C17F;
+}
+.main3-footer form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.main3-footer form input {
+  width: 245px;
+  height: 50px;
+  background-color: #fff;
+  opacity: 20%;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 14px;
+  font-family: "raleway";
+  line-height: 27px;
+}
+.main3-footer form .form-text {
+  width: 245px;
+  height: 50px;
+  text-align: center;
+}
+.main3-footer form .form-text p {
+  font-size: 13px;
+  font-family: "raleway";
+  line-height: 16px;
+  color: #E7E7E7;
+}/*# sourceMappingURL=main.css.map */
